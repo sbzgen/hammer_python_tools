@@ -20,12 +20,12 @@
 
 ## Usage
 ```shell
-$ __main__.py -cf path/to/your/maps/content -ca out.vmf -models_in path/to/your/content -models_out path/to/your/content_output -bin path/to/your/game/bin
+$ __main__.py -cf path/to/your/maps/content -ca path/to/your/games/content
 ```
 ## cli options
 **all are required**
 * `-cf` `--content_for`: (string) content folder to remove redundant files from
-* `-ca` `--content_against`: (string) content folder to pull models from (ie: `custom` when folder structure is `custom/models`)
+* `-ca` `--content_against`: (string) content folder to compare to (ie: `custom` when folder structure is `custom/models`)
 
 ## Author
 
